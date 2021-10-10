@@ -2,11 +2,13 @@
     width: 50%;
     float: left;
     text-align: center;
+    font-size: 18px;
 }
 .col-cost{
     width: 50%;
     float: left;
     text-align: center;
+    font-size: 18px;
 }
 .row:after{
     content: "";
@@ -14,5 +16,22 @@
     clear:both;
 }
 .center{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    background-image: url("hotdog.jpeg");
+    min-width: 1280px;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+.bodyStyle{
+    font-family: fantasy;
+    color: #995F4C;
+    background-color: #fbc383;
+}
+.finalCosts{
+    font-size: 20px;
     text-align: center;
 }

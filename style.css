@@ -1,0 +1,18 @@
+.col-item{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.col-cost{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.center{
+    text-align: center;
+}

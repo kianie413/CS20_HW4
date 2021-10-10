@@ -7,8 +7,8 @@
         <title>Joe's Hotdog Stand</title>
     </head> 
 
-    <body>
-        <h1 class = "center"> Joe's Hotdog Stand</h1>
+    <body class = "bodyStyle">
+        <h1 class = "title"> <br> <br> Joe's Hotdog Stand </h1>
         <div class="row"></div> 
         <h2 class = "center"> Your Receipt:</h2>
         <div class="col-item">
@@ -16,7 +16,7 @@
             <script language="javascript">
                 document.writeln("<br> Hotdog(s) ordered: " + hotdogs);
                 document.writeln("<br> Fries ordered: " + fries);
-                document.writeln("<br> Drink(s) ordered: " + drinks);
+                document.writeln("<br> Drink(s) ordered: " + drinks + "<br>");
             </script>
         </div>
         <div class="col-cost">
@@ -24,9 +24,11 @@
             <script language="javascript">
                 document.writeln("<br> Total Hotdog(s) cost: " + totalHotdogsCost.toFixed(2));
                 document.writeln("<br> Total Fries cost: " +totalFriesCost.toFixed(2));
-                document.writeln("<br> Total Drinks(s) cost: " + totalDrinksCost.toFixed(2));
+                document.writeln("<br> Total Drinks(s) cost: " + totalDrinksCost.toFixed(2) + "<br>");
             </script>
         </div>
+        <br>
+        <div class="finalCosts">
         <script language="javascript">
             if(subTotal.toFixed(2) >= 20.00){
                 document.writeln("<br> You get our 10% off discount!");
@@ -34,10 +36,11 @@
                 document.writeln("<br> MA Meals Tax: $" + taxDiscount.toFixed(2));
                 document.writeln("<br> Total: $" + totalDiscount.toFixed(2));
             }else{
-                document.writeln("<br> Subtotal: $" + subTotal.tofixed(2));
+                document.writeln("<br> Subtotal: $" + subTotal.toFixed(2));
                 document.writeln("<br> MA Meals Tax: $" + tax.toFixed(2));
                 document.writeln("<br> Total: $" + total.toFixed(2));
             }
         </script>
+    </div>
     </body>
 </html> 

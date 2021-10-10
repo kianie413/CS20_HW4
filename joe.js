@@ -19,4 +19,3 @@ tax = 0.0625 * subTotal;
 
 totalDiscount = taxDiscount + discount;
 total = tax + subTotal;
-  
